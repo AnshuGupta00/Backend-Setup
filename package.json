@@ -1,0 +1,35 @@
+{
+  "name": "javascript-with-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon json-modules src/hi.js"
+  },
+  "keywords": [
+    "Javascript"
+  ],
+  "author": "Anshu Gupta",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.7.0",
+    "compass": "^0.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.15.1",
+    "mongoose-aggregate-paginate-v2": "^1.1.4",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.9",
+    "set-cookie-parser": "^2.7.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
+}
