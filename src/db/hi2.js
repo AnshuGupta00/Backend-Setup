@@ -8,7 +8,7 @@ import mongoDB from "mongodb"
 
 const connectDB = async () => {
     try {
-        const connectionInstance = await mongoose.connect("mongodb+srv://anshugupta351613:Anshu32@cluster0.aagz0kw.mongodb.net")
+        const connectionInstance = await mongoose.connect("mongodb+srv://anshugupta351613:<YourPassword>@cluster0.aagz0kw.mongodb.net")
         console.log(`\n MongoDB connected !! DB HOST: ${connectionInstance.connection.host}`);
     } catch (error) {
         
